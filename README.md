@@ -1,3 +1,8 @@
+Docker:
+docker build -t nuxtjs-tutorial .
+
+docker run -v .:/app -p 3023:3023 nuxtjs-tutorial
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
