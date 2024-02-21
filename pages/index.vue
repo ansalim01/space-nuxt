@@ -35,8 +35,8 @@
                       </div>
                     </div>
                     <div class="item__img">
-                      <img v-if="getDiameter(item) < 100" src="./assets/pngegg 1.png">
-                      <img v-if="getDiameter(item) > 100" src="./assets/pngegg 2.png">
+                      <img v-if="getDiameter(item) < 100" src="../assets/pngegg 1.png">
+                      <img v-if="getDiameter(item) > 100" src="../assets/pngegg 2.png">
                     </div>
                     <div class="item__right">
                       <div class="item__right-title">{{getNearEarthObjectName(item.name)}}</div>
@@ -71,7 +71,7 @@
       </main>
     </div>
   <div class="bg-img">
-    <img src="./assets/earth.jpeg" alt="">
+    <img src="../assets/earth.jpeg" alt="">
   </div>
   </div>
 </template>
